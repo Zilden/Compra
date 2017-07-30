@@ -1,0 +1,36 @@
+[debug] [2017-07-23T02:40:41.613Z] ----------------------------------------------------------------------
+[debug] [2017-07-23T02:40:41.613Z] Command:      C:\Program Files\nodejs\node.exe C:\Users\Administrador\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2017-07-23T02:40:41.623Z] CLI Version:  3.9.1
+[debug] [2017-07-23T02:40:41.623Z] Platform:     win32
+[debug] [2017-07-23T02:40:41.623Z] Node Version: v6.10.3
+[debug] [2017-07-23T02:40:41.623Z] Time:         Sat Jul 22 2017 22:40:41 GMT-0400 (Hora estándar de Venezuela)
+[debug] [2017-07-23T02:40:41.623Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-07-23T02:40:41.633Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-07-23T02:40:41.633Z] > authorizing via signed-in user
+[debug] [2017-07-23T02:40:41.633Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2017-07-23T02:40:41.633Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/3vG-my0PksabbaO3HHkoxbM7bdiLTobm-niuAT0aM78',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Sat Jul 22 2017 22:40:41 GMT-0400 (Hora estándar de Venezuela)
+[debug] [2017-07-23T02:40:41.873Z] <<< HTTP RESPONSE 200
+[debug] [2017-07-23T02:40:41.903Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/compra-c283c  
+ Sat Jul 22 2017 22:40:41 GMT-0400 (Hora estándar de Venezuela)
+[debug] [2017-07-23T02:40:42.493Z] <<< HTTP RESPONSE 200
+[debug] [2017-07-23T02:40:42.493Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/compra-c283c/tokens  
+ Sat Jul 22 2017 22:40:42 GMT-0400 (Hora estándar de Venezuela)
+[debug] [2017-07-23T02:40:42.923Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\Administrador\Source\Repos\Compra\PropietariaProyecto'...
+[info] 
+[debug] [2017-07-23T02:40:42.923Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/compra-c283c  
+ Sat Jul 22 2017 22:40:42 GMT-0400 (Hora estándar de Venezuela)
+[debug] [2017-07-23T02:40:43.293Z] <<< HTTP RESPONSE 200
+[debug] [2017-07-23T02:40:43.293Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/390150136395/clients/_:getWebAppConfig  
+ Sat Jul 22 2017 22:40:43 GMT-0400 (Hora estándar de Venezuela)
+[debug] [2017-07-23T02:40:43.979Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: y
+[info] +  hosting: Local server: http://localhost:5000
+
