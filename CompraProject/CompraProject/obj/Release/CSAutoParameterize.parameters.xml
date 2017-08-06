@@ -1,2 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<parameters />
+<parameters>
+  <parameter name="CompraOnlineDBEntities-Web.config Connection String" description="CompraOnlineDBEntities Cadena de conexión que usa la aplicación en web.config para obtener acceso a la base de datos." defaultValue="metadata=res://*/Models.CompraModel.csdl|res://*/Models.CompraModel.ssdl|res://*/Models.CompraModel.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=WIN-7A8PKGSN2KN\SQLEXPRESS;initial catalog=CompraOnlineDB;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework&quot;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Administrador\\Source\\Repos\\Compra\\CompraProject\\CompraProject\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='CompraOnlineDBEntities']/@connectionString" />
+  </parameter>
+</parameters>
